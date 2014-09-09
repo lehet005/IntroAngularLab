@@ -1,6 +1,6 @@
 /**
  * Created by lamberty on 8/6/14.
- */ 
+ */
 module.exports = Wordlist;
 
 function Wordlist(){
