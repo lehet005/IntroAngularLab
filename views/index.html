@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
     <head>
         <title></title>
         <link rel="stylesheet" href="./stylesheets/style.css">
@@ -9,5 +9,13 @@
     <body>
         <h1>Angular</h1>
         <img src="../public/images/throh.png">
+        <h2>Who's that Pokemon?</h2>
+        <div ng-controller="PokemonGuess">
+            <form class="create-input">
+                <input type="text" ng-model="GuessText" ng-model-instant>
+                <button class="btn"><i class="question=mark"></i>Guess</button>
+            </form>
+
+        </div>
     </body>
 </html>
